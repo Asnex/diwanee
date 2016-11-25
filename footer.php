@@ -38,7 +38,7 @@ $("#login-form").submit(function(e)
 {
     var postData = $(this).serializeArray();
     var formURL = $(this).attr("action");
-    var redirect_url = "http://localhost/diwanee";
+    var redirect_url = "http://diwanee.sportret.com";
     $.ajax(
     {
         url : formURL,
@@ -88,7 +88,7 @@ $('.modal-toggle').click(function(e){
            if($('#btn-submit-logout').data('clicked')) {
   
        
-       var redirect_url = "http://localhost/diwanee";
+       var redirect_url = "http://diwanee.sportret.com";
     $.ajax(
     {
         url : "./action.php",
